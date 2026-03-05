@@ -4,7 +4,9 @@ import background from '$lib/assets/bg.jpg';
 
 <svelte:head>
     <title>Jewelry - Webshop</title>
+    <meta property="og:title" content="Jewelry - Webshop" />
     <meta name="description" content="Discover our exquisite collection of jewelry, crafted with precision and passion. From elegant necklaces to stunning rings, find the perfect piece to complement your style. Shop now and elevate your look with our timeless designs." />
+    <meta property="og:image" content="{background}" />
 </svelte:head>
 
 <header class="h-[500px] bg-cover bg-center flex items-center justify-center"style="background-image: url('{background}')">
@@ -19,6 +21,6 @@ import background from '$lib/assets/bg.jpg';
 </main>
 
 
-<footer>
-
+<footer class="h-[300px] bg-amber-950 text-white flex items-center justify-center">
+    <p>Test-page for SEO</p>
 </footer>
